@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacion{
+    
+    display: flex;
+    justify-content: right;
+}
+
+li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+li:hover{
+    background-color: #dcdbdb;
+    transition: .3s;
+}
+
+a{
+    text-decoration: none;
+    color: #646161;
+    font-family: Tahoma;
+    font-size: 14px;
+    justify-content: center;
+
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 5px;
+}
+
+#g1{color: rgb(60, 133, 230);}
+#o1{color: rgb(247, 53, 53);}
+#o2{color:rgb(255, 196, 0);}
+#g2{color: rgb(60, 133, 230);}
+#l{color: rgb(22, 158, 22);}
+#e{color: rgb(247, 53, 53);}
+
+#puntos{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#perfil{
+    height: 35px;
+    width: 35px;
+    margin: 3px;
+    padding: 0px ;
+}
+
+#buscador{
+    display: flex;
+    justify-content: center;
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+}
+
+#Buscar{
+    margin: 5px;
+    padding: 5px;
+}
+
+#suerte{
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#foot{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#ofrecido{
+    margin: 5px;
+    padding: 5px;
+    font-family: tahoma;
+    font-size: 15px;
+}
